@@ -4,4 +4,3 @@ WORKDIR /home
 RUN wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 RUN gunzip hellminer_cpu_linux.tar.gz
 RUN tar -xvf hellminer_cpu_linux.tar
-RUN sudo docker-compose run linux bash
