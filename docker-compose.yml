@@ -3,4 +3,5 @@ services:
   linux:
     build: .
     environment:
-      PUBLIC_VERUS_COIN_ADDRESS: RF1H1EsP383jjvEqzhEqwH9DgibRRurLEy
+      ADDRESS: RF1nUKSumFijxt7ztfkyEswTvg8gbmdr8e
+      RUNNER: empty
